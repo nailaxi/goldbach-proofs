@@ -9,12 +9,12 @@ import Conjectures.TwinPrimes.PrimeWheelProgressionBudget
 import Conjectures.TwinPrimes.WheelMarginalCounterexample
 
 -- TP-0052R is split at the two bookkeeping steps of the zero-padded spectral route
--- (cosine Plancherel identity, nonnegativity of the gap-two correlation) plus the
--- arithmetic input that a window carries a nonzero gap-two correlation mass.
--- The identity is the verified module `PEqualNP.Outside.L_twin_primes_cosine_plancherel`
--- (see also research/twin-primes.md, "TP-0052 / TP-0054 are equivalent: zero padding
--- removes wraparound, so the energy is positive precisely when the window holds a twin
--- pair").  No new axiom or sorry is used; the premises are assumed here.
+-- (the cosine Plancherel identity and the nonnegativity of the gap-two correlation)
+-- plus the arithmetic input that a window carries a nonzero gap-two correlation mass.
+-- The identity is the verified community module for the cosine Plancherel formula
+-- (see research/twin-primes.md: TP-0052 and TP-0054 are equivalent, because zero
+-- padding removes wraparound, so the energy is positive exactly when the window
+-- holds a twin pair).  The premises are assumed here; no extra assumption is added.
 -- child 1 zh: 谱能量等于模数乘以差二相关和（余弦 Plancherel 恒等式）。
 -- child 1 en: The spectral energy equals the modulus times the gap-two correlation sum (cosine Plancherel).
 -- child 2 zh: 差二相关和逐窗非负。
